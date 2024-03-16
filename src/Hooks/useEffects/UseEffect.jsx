@@ -10,8 +10,8 @@ function UseEffect() {
   return (
     <div className="use-effect-hook">
       <h2>{state}</h2>
-      <button onClick={() => setState(state++) }>Increment</button>
-      <button onClick={() => setState(state--) }>Decrement</button>
+      <button onClick={() => setState() }>Increment</button>
+      <button onClick={() => setState() }>Decrement</button>
     </div>
   )
 }
