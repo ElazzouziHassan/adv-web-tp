@@ -22,7 +22,7 @@ function Exo1() {
   };
 
   return (
-    <div className="exo-1 sm:flex sm:flex-col sm:items-center sm:justify-center sm:space-y-4">
+    <div className="sm:flex sm:items-center sm:justify-center">
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="nom">Nom :</label>
