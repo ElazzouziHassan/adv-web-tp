@@ -1,5 +1,6 @@
 import './App.css'
-import UseMemo from './Hooks/useMemo/UseMemo'
+import Exo1 from './exercice-1/Exo1'
+// import UseMemo from './Hooks/useMemo/UseMemo'
 // import UseEffect from './Hooks/useEffects/UseEffect'
 // import UseState from './Hooks/useState/UseState'
 
@@ -8,7 +9,8 @@ function App() {
     <>
       {/* <UseState/> */}
       {/* <UseEffect/> */}
-      <UseMemo/>
+      {/* <UseMemo/> */}
+      <Exo1/>
     </>
   )
 }
